@@ -1,0 +1,15 @@
+{
+    "optimizer": "GA",
+    "problem_instance": "/path/to/file.txt",
+    "shape": [1000, 100],
+    "max_eval": {},
+    "max_time": {},
+    "max_gen": {},
+    "n_runs" : 5,
+    "seed": 48,
+    "verbose": 1,
+    "use_repair": 1,
+    "check_diversity":0,
+    "log":1,
+    "n_bits":2
+}
