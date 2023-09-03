@@ -10,7 +10,7 @@ SEED = 48
 
 @register
 def early_termination():
-    # Move into objects to save data?
+    # implement to save data if early termination
     pass
 
 def main(config):
@@ -66,5 +66,5 @@ if __name__ == '__main__':
     parser.add_argument('--seed', default=42, type=int,
                         help='seed')
     args = parser.parse_args()
-
+    
     main(args)
